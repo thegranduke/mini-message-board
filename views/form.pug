@@ -1,0 +1,11 @@
+extends layout 
+block content
+    h1= title
+    <form method="POST" action="/new">
+        <input type="text" name="messageUser" placeholder="Name">
+        <input type="text" name="messageText" placeholder="Message">
+        <button type="submit">Submit</button>
+    </form>
+    <a href="/">home</a>
+    
+
